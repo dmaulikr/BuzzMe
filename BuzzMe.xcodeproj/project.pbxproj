@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F38E4B21A7B415700DEF5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4B11A7B415700DEF5BB /* main.m */; };
+		2F38E4B51A7B415700DEF5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4B41A7B415700DEF5BB /* AppDelegate.m */; };
+		2F38E4BA1A7B415700DEF5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F38E4B91A7B415700DEF5BB /* Images.xcassets */; };
+		2F38E4BD1A7B415700DEF5BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F38E4BB1A7B415700DEF5BB /* LaunchScreen.xib */; };
+		2F38E4C91A7B415700DEF5BB /* BuzzMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4C81A7B415700DEF5BB /* BuzzMeTests.m */; };
+		2F38E4D41A7B41A200DEF5BB /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4D31A7B41A200DEF5BB /* BMNavigationController.m */; };
+		2F38E4D71A7B41C900DEF5BB /* BMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4D61A7B41C900DEF5BB /* BMMainViewController.m */; };
+		2F38E4DA1A7B436900DEF5BB /* BMTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4D91A7B436900DEF5BB /* BMTeacherViewController.m */; };
+		2F38E4DD1A7B437600DEF5BB /* BMStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E4DC1A7B437600DEF5BB /* BMStudentViewController.m */; };
+		2F38E4DF1A7B44CA00DEF5BB /* Existence-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F38E4DE1A7B445800DEF5BB /* Existence-Light.ttf */; };
+		2F56F9AC1A98540B009CF888 /* BMTeacherPlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56F9AB1A98540B009CF888 /* BMTeacherPlayGameViewController.m */; };
+		2F580A741A93027200109F62 /* BMMakeQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F580A731A93027200109F62 /* BMMakeQuestionsViewController.m */; };
+		2F580A7A1A945AE900109F62 /* BMStudentPlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F580A791A945AE900109F62 /* BMStudentPlayGameViewController.m */; };
+		2F5AE4071A9AB19400DF860D /* BMLoadViewQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5AE4061A9AB19400DF860D /* BMLoadViewQuestionViewController.m */; };
+		2F5AE40A1AA3DF5300DF860D /* BMStudentEndGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5AE4091AA3DF5300DF860D /* BMStudentEndGameViewController.m */; };
+		2F5AE40F1AA7FB2600DF860D /* Whoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2F5AE40E1AA7FB2600DF860D /* Whoosh.wav */; };
+		2F5AE4111AA7FDB700DF860D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5AE4101AA7FDB700DF860D /* AVFoundation.framework */; };
+		2FA2B8661A916B75007EF02B /* MCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2B8651A916B75007EF02B /* MCStudent.m */; };
+		2FA2B8691A917BE3007EF02B /* MCTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2B8681A917BE3007EF02B /* MCTeacher.m */; };
+		2FA7E8C91A9A775900813E25 /* BMAddQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7E8C81A9A775900813E25 /* BMAddQuestionViewController.m */; };
+		D8E3CEDE4A5FDED098990041 /* libPods-BuzzMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A56A0DAB20BA5E66C41419 /* libPods-BuzzMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F38E4C31A7B415700DEF5BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F38E4A41A7B415700DEF5BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F38E4AB1A7B415700DEF5BB;
+			remoteInfo = BuzzMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F38E4AC1A7B415700DEF5BB /* BuzzMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F38E4B01A7B415700DEF5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F38E4B11A7B415700DEF5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F38E4B31A7B415700DEF5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F38E4B41A7B415700DEF5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F38E4B91A7B415700DEF5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F38E4BC1A7B415700DEF5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F38E4C21A7B415700DEF5BB /* BuzzMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzzMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F38E4C71A7B415700DEF5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F38E4C81A7B415700DEF5BB /* BuzzMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzMeTests.m; sourceTree = "<group>"; };
+		2F38E4D21A7B41A200DEF5BB /* BMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationController.h; sourceTree = "<group>"; };
+		2F38E4D31A7B41A200DEF5BB /* BMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavigationController.m; sourceTree = "<group>"; };
+		2F38E4D51A7B41C900DEF5BB /* BMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMainViewController.h; sourceTree = "<group>"; };
+		2F38E4D61A7B41C900DEF5BB /* BMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMainViewController.m; sourceTree = "<group>"; };
+		2F38E4D81A7B436900DEF5BB /* BMTeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTeacherViewController.h; sourceTree = "<group>"; };
+		2F38E4D91A7B436900DEF5BB /* BMTeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTeacherViewController.m; sourceTree = "<group>"; };
+		2F38E4DB1A7B437600DEF5BB /* BMStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMStudentViewController.h; sourceTree = "<group>"; };
+		2F38E4DC1A7B437600DEF5BB /* BMStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMStudentViewController.m; sourceTree = "<group>"; };
+		2F38E4DE1A7B445800DEF5BB /* Existence-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Existence-Light.ttf"; sourceTree = "<group>"; };
+		2F56F9AA1A98540B009CF888 /* BMTeacherPlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTeacherPlayGameViewController.h; sourceTree = "<group>"; };
+		2F56F9AB1A98540B009CF888 /* BMTeacherPlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTeacherPlayGameViewController.m; sourceTree = "<group>"; };
+		2F580A721A93027200109F62 /* BMMakeQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMakeQuestionsViewController.h; sourceTree = "<group>"; };
+		2F580A731A93027200109F62 /* BMMakeQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMakeQuestionsViewController.m; sourceTree = "<group>"; };
+		2F580A781A945AE900109F62 /* BMStudentPlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMStudentPlayGameViewController.h; sourceTree = "<group>"; };
+		2F580A791A945AE900109F62 /* BMStudentPlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMStudentPlayGameViewController.m; sourceTree = "<group>"; };
+		2F5AE4051A9AB19400DF860D /* BMLoadViewQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLoadViewQuestionViewController.h; sourceTree = "<group>"; };
+		2F5AE4061A9AB19400DF860D /* BMLoadViewQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLoadViewQuestionViewController.m; sourceTree = "<group>"; };
+		2F5AE4081AA3DF5300DF860D /* BMStudentEndGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMStudentEndGameViewController.h; sourceTree = "<group>"; };
+		2F5AE4091AA3DF5300DF860D /* BMStudentEndGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMStudentEndGameViewController.m; sourceTree = "<group>"; };
+		2F5AE40E1AA7FB2600DF860D /* Whoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Whoosh.wav; sourceTree = "<group>"; };
+		2F5AE4101AA7FDB700DF860D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2FA2B8641A916B75007EF02B /* MCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStudent.h; sourceTree = "<group>"; };
+		2FA2B8651A916B75007EF02B /* MCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStudent.m; sourceTree = "<group>"; };
+		2FA2B8671A917BE3007EF02B /* MCTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTeacher.h; sourceTree = "<group>"; };
+		2FA2B8681A917BE3007EF02B /* MCTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTeacher.m; sourceTree = "<group>"; };
+		2FA7E8C71A9A775900813E25 /* BMAddQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAddQuestionViewController.h; sourceTree = "<group>"; };
+		2FA7E8C81A9A775900813E25 /* BMAddQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAddQuestionViewController.m; sourceTree = "<group>"; };
+		326C23C14FDD0A01E1D40B40 /* Pods-BuzzMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzMe/Pods-BuzzMe.debug.xcconfig"; sourceTree = "<group>"; };
+		61A56A0DAB20BA5E66C41419 /* libPods-BuzzMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuzzMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB24854F8A5F63C9C45F7121 /* Pods-BuzzMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuzzMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuzzMe/Pods-BuzzMe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F38E4A91A7B415700DEF5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5AE4111AA7FDB700DF860D /* AVFoundation.framework in Frameworks */,
+				D8E3CEDE4A5FDED098990041 /* libPods-BuzzMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F38E4BF1A7B415700DEF5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F38E4A31A7B415700DEF5BB = {
+			isa = PBXGroup;
+			children = (
+				2F38E4AE1A7B415700DEF5BB /* BuzzMe */,
+				2F38E4C51A7B415700DEF5BB /* BuzzMeTests */,
+				2F38E4AD1A7B415700DEF5BB /* Products */,
+				3D997DFA77927DC9899D888E /* Pods */,
+				A016A58135424C765F29F151 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F38E4AD1A7B415700DEF5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F38E4AC1A7B415700DEF5BB /* BuzzMe.app */,
+				2F38E4C21A7B415700DEF5BB /* BuzzMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F38E4AE1A7B415700DEF5BB /* BuzzMe */ = {
+			isa = PBXGroup;
+			children = (
+				2FA2B8671A917BE3007EF02B /* MCTeacher.h */,
+				2FA2B8681A917BE3007EF02B /* MCTeacher.m */,
+				2FA2B8641A916B75007EF02B /* MCStudent.h */,
+				2FA2B8651A916B75007EF02B /* MCStudent.m */,
+				2F38E4B31A7B415700DEF5BB /* AppDelegate.h */,
+				2F38E4B41A7B415700DEF5BB /* AppDelegate.m */,
+				2F38E4D21A7B41A200DEF5BB /* BMNavigationController.h */,
+				2F38E4D31A7B41A200DEF5BB /* BMNavigationController.m */,
+				2F38E4D51A7B41C900DEF5BB /* BMMainViewController.h */,
+				2F38E4D61A7B41C900DEF5BB /* BMMainViewController.m */,
+				2F38E4D81A7B436900DEF5BB /* BMTeacherViewController.h */,
+				2F38E4D91A7B436900DEF5BB /* BMTeacherViewController.m */,
+				2F38E4DB1A7B437600DEF5BB /* BMStudentViewController.h */,
+				2F38E4DC1A7B437600DEF5BB /* BMStudentViewController.m */,
+				2F56F9AA1A98540B009CF888 /* BMTeacherPlayGameViewController.h */,
+				2F56F9AB1A98540B009CF888 /* BMTeacherPlayGameViewController.m */,
+				2F580A781A945AE900109F62 /* BMStudentPlayGameViewController.h */,
+				2F580A791A945AE900109F62 /* BMStudentPlayGameViewController.m */,
+				2F580A721A93027200109F62 /* BMMakeQuestionsViewController.h */,
+				2F580A731A93027200109F62 /* BMMakeQuestionsViewController.m */,
+				2FA7E8C71A9A775900813E25 /* BMAddQuestionViewController.h */,
+				2FA7E8C81A9A775900813E25 /* BMAddQuestionViewController.m */,
+				2F5AE4051A9AB19400DF860D /* BMLoadViewQuestionViewController.h */,
+				2F5AE4061A9AB19400DF860D /* BMLoadViewQuestionViewController.m */,
+				2F5AE4081AA3DF5300DF860D /* BMStudentEndGameViewController.h */,
+				2F5AE4091AA3DF5300DF860D /* BMStudentEndGameViewController.m */,
+				2F38E4B91A7B415700DEF5BB /* Images.xcassets */,
+				2F38E4BB1A7B415700DEF5BB /* LaunchScreen.xib */,
+				2F38E4AF1A7B415700DEF5BB /* Supporting Files */,
+			);
+			path = BuzzMe;
+			sourceTree = "<group>";
+		};
+		2F38E4AF1A7B415700DEF5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F38E4DE1A7B445800DEF5BB /* Existence-Light.ttf */,
+				2F5AE40E1AA7FB2600DF860D /* Whoosh.wav */,
+				2F38E4B01A7B415700DEF5BB /* Info.plist */,
+				2F38E4B11A7B415700DEF5BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F38E4C51A7B415700DEF5BB /* BuzzMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F38E4C81A7B415700DEF5BB /* BuzzMeTests.m */,
+				2F38E4C61A7B415700DEF5BB /* Supporting Files */,
+			);
+			path = BuzzMeTests;
+			sourceTree = "<group>";
+		};
+		2F38E4C61A7B415700DEF5BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F38E4C71A7B415700DEF5BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D997DFA77927DC9899D888E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				326C23C14FDD0A01E1D40B40 /* Pods-BuzzMe.debug.xcconfig */,
+				BB24854F8A5F63C9C45F7121 /* Pods-BuzzMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A016A58135424C765F29F151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5AE4101AA7FDB700DF860D /* AVFoundation.framework */,
+				61A56A0DAB20BA5E66C41419 /* libPods-BuzzMe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F38E4AB1A7B415700DEF5BB /* BuzzMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F38E4CC1A7B415700DEF5BB /* Build configuration list for PBXNativeTarget "BuzzMe" */;
+			buildPhases = (
+				0402AA2A0234E8E17664BF9F /* Check Pods Manifest.lock */,
+				2F38E4A81A7B415700DEF5BB /* Sources */,
+				2F38E4A91A7B415700DEF5BB /* Frameworks */,
+				2F38E4AA1A7B415700DEF5BB /* Resources */,
+				1552CE1B5E3279F83ADB08AF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuzzMe;
+			productName = BuzzMe;
+			productReference = 2F38E4AC1A7B415700DEF5BB /* BuzzMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F38E4C11A7B415700DEF5BB /* BuzzMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F38E4CF1A7B415700DEF5BB /* Build configuration list for PBXNativeTarget "BuzzMeTests" */;
+			buildPhases = (
+				2F38E4BE1A7B415700DEF5BB /* Sources */,
+				2F38E4BF1A7B415700DEF5BB /* Frameworks */,
+				2F38E4C01A7B415700DEF5BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F38E4C41A7B415700DEF5BB /* PBXTargetDependency */,
+			);
+			name = BuzzMeTests;
+			productName = BuzzMeTests;
+			productReference = 2F38E4C21A7B415700DEF5BB /* BuzzMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F38E4A41A7B415700DEF5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tim Wong";
+				TargetAttributes = {
+					2F38E4AB1A7B415700DEF5BB = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = LL9BGBW5DQ;
+					};
+					2F38E4C11A7B415700DEF5BB = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = LL9BGBW5DQ;
+						TestTargetID = 2F38E4AB1A7B415700DEF5BB;
+					};
+				};
+			};
+			buildConfigurationList = 2F38E4A71A7B415700DEF5BB /* Build configuration list for PBXProject "BuzzMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F38E4A31A7B415700DEF5BB;
+			productRefGroup = 2F38E4AD1A7B415700DEF5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F38E4AB1A7B415700DEF5BB /* BuzzMe */,
+				2F38E4C11A7B415700DEF5BB /* BuzzMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F38E4AA1A7B415700DEF5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F38E4DF1A7B44CA00DEF5BB /* Existence-Light.ttf in Resources */,
+				2F38E4BD1A7B415700DEF5BB /* LaunchScreen.xib in Resources */,
+				2F5AE40F1AA7FB2600DF860D /* Whoosh.wav in Resources */,
+				2F38E4BA1A7B415700DEF5BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F38E4C01A7B415700DEF5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0402AA2A0234E8E17664BF9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1552CE1B5E3279F83ADB08AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuzzMe/Pods-BuzzMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F38E4A81A7B415700DEF5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F38E4DA1A7B436900DEF5BB /* BMTeacherViewController.m in Sources */,
+				2F5AE4071A9AB19400DF860D /* BMLoadViewQuestionViewController.m in Sources */,
+				2F580A7A1A945AE900109F62 /* BMStudentPlayGameViewController.m in Sources */,
+				2F56F9AC1A98540B009CF888 /* BMTeacherPlayGameViewController.m in Sources */,
+				2F5AE40A1AA3DF5300DF860D /* BMStudentEndGameViewController.m in Sources */,
+				2F38E4D71A7B41C900DEF5BB /* BMMainViewController.m in Sources */,
+				2FA2B8691A917BE3007EF02B /* MCTeacher.m in Sources */,
+				2F38E4B51A7B415700DEF5BB /* AppDelegate.m in Sources */,
+				2F580A741A93027200109F62 /* BMMakeQuestionsViewController.m in Sources */,
+				2F38E4D41A7B41A200DEF5BB /* BMNavigationController.m in Sources */,
+				2F38E4B21A7B415700DEF5BB /* main.m in Sources */,
+				2FA2B8661A916B75007EF02B /* MCStudent.m in Sources */,
+				2F38E4DD1A7B437600DEF5BB /* BMStudentViewController.m in Sources */,
+				2FA7E8C91A9A775900813E25 /* BMAddQuestionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F38E4BE1A7B415700DEF5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F38E4C91A7B415700DEF5BB /* BuzzMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F38E4C41A7B415700DEF5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F38E4AB1A7B415700DEF5BB /* BuzzMe */;
+			targetProxy = 2F38E4C31A7B415700DEF5BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F38E4BB1A7B415700DEF5BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F38E4BC1A7B415700DEF5BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F38E4CA1A7B415700DEF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F38E4CB1A7B415700DEF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F38E4CD1A7B415700DEF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326C23C14FDD0A01E1D40B40 /* Pods-BuzzMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BuzzMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F38E4CE1A7B415700DEF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB24854F8A5F63C9C45F7121 /* Pods-BuzzMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BuzzMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F38E4D01A7B415700DEF5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuzzMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuzzMe.app/BuzzMe";
+			};
+			name = Debug;
+		};
+		2F38E4D11A7B415700DEF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuzzMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuzzMe.app/BuzzMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F38E4A71A7B415700DEF5BB /* Build configuration list for PBXProject "BuzzMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F38E4CA1A7B415700DEF5BB /* Debug */,
+				2F38E4CB1A7B415700DEF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F38E4CC1A7B415700DEF5BB /* Build configuration list for PBXNativeTarget "BuzzMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F38E4CD1A7B415700DEF5BB /* Debug */,
+				2F38E4CE1A7B415700DEF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F38E4CF1A7B415700DEF5BB /* Build configuration list for PBXNativeTarget "BuzzMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F38E4D01A7B415700DEF5BB /* Debug */,
+				2F38E4D11A7B415700DEF5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F38E4A41A7B415700DEF5BB /* Project object */;
+}
